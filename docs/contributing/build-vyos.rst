@@ -254,7 +254,7 @@ Start the build:
 
   # For VyOS 1.4 (sagitta) and For VyOS 1.5 (circinus, current)
   vyos_bld@8153428c7e1f:/vyos$ sudo make clean
-  vyos_bld@8153428c7e1f:/vyos$ sudo ./build-vyos-image iso --architecture amd64 --build-by "j.randomhacker@vyos.io"
+  vyos_bld@8153428c7e1f:/vyos$ sudo ./build-vyos-image generic --architecture amd64 --build-by "j.randomhacker@vyos.io"
 
 When the build is successful, the resulting iso can be found inside the
 ``build`` directory as ``live-image-[architecture].hybrid.iso``.
