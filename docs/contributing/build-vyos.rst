@@ -61,7 +61,7 @@ To start, clone the repository to your local machine:
 
   # For VyOS 1.4 (sagitta) and VyOS 1.5 (circinus, current)
   $ sudo make clean
-  $ sudo ./build-vyos-image iso --architecture amd64 --build-by "j.randomhacker@vyos.io"
+  $ sudo ./build-vyos-image generic --architecture amd64 --build-by "j.randomhacker@vyos.io"
 
 For the packages required, you can refer to the ``docker/Dockerfile`` file
 in the repository_. The ``./build-vyos-image`` script will also warn you if any
